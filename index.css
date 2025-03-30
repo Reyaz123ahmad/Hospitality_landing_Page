@@ -1,0 +1,3568 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+   
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    z-index: 100000;
+    position: fixed;
+   
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: .2px .2px 5px rgb(228, 225, 225);
+}
+#teeth{
+    height: 10rem;
+    width: 13rem;
+    margin-left: 1.6rem;
+   
+}
+.call{
+    
+    margin-right: 3rem;
+    padding: 1rem 3rem;
+    border-radius: 40px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #6668BA;
+}
+.call i{
+    font-weight: 600;
+}
+.anchor{
+    display: flex;
+    gap: 2.5rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+}
+#home{
+    color: #6668BA;
+}
+.anchor a{
+    text-decoration: none;
+    color: #272C3D;
+   
+}
+
+.anchor a:hover{
+    
+    transition: all .2s linear;
+    color: #6668BA;
+}
+#menu{
+    display: none;
+}
+.dent-image{
+   
+    width: 100%;
+   
+    height: 100%;
+   
+    overflow-x: hidden;
+}
+#image-dent{
+    width: 100%;
+    margin-top: 6.2rem;
+    height: 100%;
+   
+    position: absolute;
+    background:linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7),transparent);
+    opacity: .8;
+    z-index: -1;
+    overflow-x: hidden;
+}
+.main-img{
+   
+    height: 100%;
+    position: relative;
+   
+}
+.dent-head{
+   
+    position: relative;
+    bottom: 25rem; 
+    color: white;
+    /* top: 5rem; */
+   
+  
+}
+
+.dent-heading{
+    
+    position: relative;
+    left: 18vw;
+   font-size: 3.5vw;
+   width: 45%;
+}
+.dent-para{
+    width: 50%;
+   
+    position: relative;
+    left: 18vw;
+    bottom: 1.5rem;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+#dent-learn{
+  
+    background-color: #6668BA;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 40px;
+    padding: .8rem 1rem;
+    font-size: .8vw;
+    font-weight: 500;
+    top: 2rem;
+    left: 18vw;
+    
+}
+#dent-learn:hover{
+    background-color: #272C3D;
+    transition: all .2s linear;
+}
+.dent-head button{
+    position: relative;
+    left: 9rem;
+   
+}
+
+#click{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* additional part here */
+
+
+
+.additional{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#survice-banner{
+   height: 300px;
+   width: 100%;
+   margin-top: 6rem;
+   
+  
+}
+.add{
+    position: absolute;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+   
+}
+.banner-head{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.add1{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.add1 a{
+    text-decoration: none;
+}
+#add1-home{
+    color: #6668ba;
+    font-size: 1.5rem;
+}
+#add1-home:hover{
+    color: #FFFFFF;
+    transition: all .2s linear;
+}
+#add1-survice{
+    color: #FFFFFF;
+}
+#add1-survice:hover{
+    color: #6668ba;
+    transition: all .2s linear;
+}
+
+
+
+/* practice-part here */
+
+
+
+.practice{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 6rem;
+    top: 5rem;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.practice-image{
+    width: 49%;
+    margin-left: 1rem;
+}
+.practical-dent{
+    width: 100%;
+}
+.practice-season{
+    width: 49%;
+    margin-right: 1.8rem;
+   
+}
+.tick{
+    display: flex;
+    align-items: center;
+   position: relative;
+    top: 2.3rem;
+    display: flex;
+    line-height: 1.6rem;
+    
+    gap: .5rem;
+}
+.tick i{
+    font-size: 1.2rem;
+    
+    font-weight: 600;
+}
+.tick-button{
+   
+     width: 1.2rem; 
+     height: 1.2rem; 
+    border-radius: 50%;
+   background-color: #6668BA;
+   border: none;
+   color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.practice-head{
+    width:400px;
+    font-size: 1.8rem;
+    
+    font-weight: 600;
+    color: #272C3D;
+   
+    position: relative;
+    top: 1rem;
+}
+.practice-para{
+    position: relative;
+    top: 1.7rem;
+    width: 99.5%;
+    font-size: 1.1rem;
+    
+    font-weight: 300;
+    line-height: 1.5rem;
+   
+    color: #454568;
+}
+.tick-para{
+    font-size: 1rem;
+   
+    font-weight: 600;
+    color: #272C3D;
+}
+
+#practice-learn{
+    margin-top: 3.5rem;
+    padding: 1rem 1.5rem;
+    
+    border-radius: 40px;
+   background-color: #6668BA;
+   color: #FFFFFF;
+   
+  
+   font-weight: 600;
+   border: none;
+
+    
+}
+#practice-learn:hover{
+    background-color: #272C3D;
+    transition: all 0.2s linear;
+}
+
+
+
+
+/* healthy part here */
+
+
+
+
+.healthy{
+   position: relative;
+  
+   margin-top: 9rem;
+    width: 100%;
+   
+    display: flex;
+    background-color: #EDF5FC;
+   
+}
+.healthy-first{
+    margin-top: 4rem;
+    
+    width: 35vw;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+   
+    margin-bottom: 4rem;
+}
+.healthy-head{
+    width: 70%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #272C3D;
+    position: relative;
+    left: .5rem;
+    bottom: 1.5rem;
+}
+.healthy-para{
+    color: #454568;
+    position: relative;
+    left: .5rem;
+    width: 92%;
+    line-height: 1.6rem;
+}
+#healthy-button{
+    position: relative;
+    top: 1.5rem;
+    left: .5rem;
+    font-weight: 600;
+    padding: 1rem 2.3rem;
+    border-radius: 30px;
+    background-color: #6668BA;
+    color: #FFFFFF;
+    border: none;
+}
+#healthy-button:hover{
+    background-color: #272C3D;
+    transition: all .2s linear;
+}
+.healthy-middle{
+    margin-top: 4rem;
+   
+    width: 40vw;
+    margin-bottom: 4rem;
+    
+}
+#healthy-img{
+    width: 100%;
+}
+
+.healthy-last{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+    width: 27vw;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.healthy-last-para1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    position: relative;
+    bottom: .5rem;
+    line-height: 4.3rem;
+    color: #272C3D;
+   
+}
+.healthy-last-para2{
+    font-size: 1.1rem;
+    font-weight: 400;
+    position: relative;
+    bottom: 1rem;
+    color: #454568;
+}
+.healthy-div1, .healthy-div2{
+    border-bottom: .5px solid #cfcdcd;
+}
+
+
+
+
+/* health part here */
+
+
+.health{
+    margin-top: 6rem;
+   
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.health-head{
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #272C3D;
+}
+.health-para{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #454568;
+}
+.dental-service{
+    display: flex;
+    width: 100%;
+    margin-top: 4.5rem;
+    margin-left: .5rem;
+    
+}
+
+.health-teeth{
+  
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 4.5rem;
+}
+.health-teeth1{
+    
+    gap: 1rem;
+   
+    display: flex;
+}
+.service-head{
+    font-size: 1.1rem;
+    color: #272C3D;
+}
+.service-para{
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1.7rem;
+    color: #454568;
+}
+.dental-pic{
+    width: 3rem;
+    height: 3.2rem;
+}
+
+
+
+
+
+
+
+/* surgeon part here */
+
+
+.surgeon{
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 1rem;
+   
+}
+.surgeon-info{
+    width: 48%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: .9rem;
+   margin-bottom: 2.1rem;
+   
+}
+
+.surgeon-img{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    
+   
+}
+.surgeon-pic{
+    width: 33%;
+    
+        
+      
+  
+}
+.surgeon-text{
+   
+    display: flex;
+    flex-direction: column;
+}
+.bridget{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #272C3D;
+    margin-bottom: .5rem;
+}
+.dental-surgeon{
+    font-size: 1.1rem;
+    font: 500;
+    color: #454568;
+    margin-bottom: 1rem;
+}
+.surgeon-para{
+   
+   
+    font-size: 1rem;
+    color: #454568;
+    line-height: 1.4rem;
+}
+
+
+.surgeon-bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.sur{
+    display: flex;
+    flex-direction: column;
+   
+}
+#sur1{
+    margin-top: 2.7rem;
+    
+}
+
+
+.endo{
+    font-size: 1.2rem;
+   
+    color: #454568;
+}
+.line-item{
+    width: 100%;
+    height: 1rem;
+    background-color:#eeeeee;
+    margin-top: 1rem;
+    border-radius: 2px;
+}
+.line{
+    width: 65%;
+    height: 1rem;
+    background-color: #6668ba;
+   border-top-left-radius: 2px;
+   border-bottom-left-radius: 2px;
+
+}
+.line1{
+    width: 75%;
+    height: 1rem;
+    background-color: #6668ba;
+   border-top-left-radius: 2px;
+   border-bottom-left-radius: 2px;
+}
+.line2{
+    width: 70%;
+    height: 1rem;
+    background-color: #6668ba;
+   border-top-left-radius: 2px;
+   border-bottom-left-radius: 2px;
+}
+
+
+.surgeon-info2{
+    width: 46.3%;
+    
+   
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    background-color: #6668ba; 
+   
+
+    color: #FFFFFF;
+    
+}
+
+.surgeon-info2-top{
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+}
+
+.surgeon-info2-bottom{
+    display: flex;
+    margin-top: 1.9rem;
+    margin-left: .5rem;
+    justify-content: space-between;
+    
+    margin-right: 6vw;
+    align-items: center;
+  
+  
+}
+
+.working{
+    font-size: 2.9rem;
+    font-weight: 600;
+    margin-top: 2rem;
+   
+}
+.working-para{
+    width: 97%;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#surgeon-monday{
+    margin-top: 2.6rem;
+
+   
+}
+.dot{
+    
+    width: 30%;
+    border: 1.5px dotted;
+}
+#sunday{
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+
+
+
+/* peoples part here */
+
+
+
+
+.people{
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 4rem;
+   
+   margin-left: .7rem;
+}
+.people-head{
+    font-size: 2.5rem;
+    color: #272C3D;
+    font-weight: 600;
+    text-align: center;
+   
+}
+
+.people-para{
+    
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #454568;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.people-card{
+    width: 100%;
+    display: flex;
+   
+    margin-top: 4rem;
+    gap: 2rem;
+    margin-left: .5rem;
+}
+.people-card-para{
+    margin: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.8rem;
+    color: #454568;
+}
+.people-card1{
+    margin-left: .9rem;
+    
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    
+    box-shadow: 1px 1px 10px rgb(220, 220, 220);
+}
+
+.people-card2{
+   
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px rgb(220, 220, 220);
+   
+    margin-right: 1rem;
+}
+.people-card-img{
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-inline: 2rem;
+    gap: 1rem;
+}
+.maureen-img{
+    border-radius: 50%;
+}
+
+.maureen{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .5rem;
+    
+}
+.maureen-head{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #272C3D;
+}
+.maureen-para{
+    font-size: 1rem;
+    color: #454568;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* advance part here */
+
+
+.advance{
+   
+    width: 100%;
+    margin-top: 6rem;
+    background-color: #edf5fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: .3rem;
+}
+.advance-head{
+    font-size: 2.5rem;
+    color: #272C3D;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.advance-para{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    color: #454568;
+}
+#result-img{
+    margin-top: 3rem;
+   
+    height: auto;
+    width: 100vw;
+  
+}
+
+
+
+
+
+/* expert part here */
+
+.expert{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+    
+    margin-left: .3rem;
+  
+}
+.expert-head{
+    font-size: 2.5rem;
+    color: #272C3D;
+    font-weight: 600;
+
+}
+.expert-para{
+    font-size: 1.1rem;
+    color: #454568;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.expert-img{
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    margin-top: 2rem;
+    
+    gap: 3rem;
+    width: 98%;
+    
+    flex-wrap: wrap;
+}
+.expert1{
+    
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+   
+}
+#team1{
+    width: 312px;
+}
+.lynne-head{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #272C3D;
+}
+.expert1-para{
+    margin-top: .6rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #454568;
+}
+
+
+
+
+
+/* specialist part here */
+
+
+.specialist{
+    width:98%;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    margin-left: .3rem;
+}
+.specialist-head{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #272C3D;
+    text-align: center;
+
+}
+.specialist-para{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #454568;
+    margin-top: .8rem;
+    text-align: center;
+}
+
+
+.specialist1{
+    width: 98%;
+    margin-left: .3rem;
+    margin-top: 2rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+
+
+.special-teeth{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    width: 230px;
+}
+.special{
+    display: flex;
+    flex-direction: column;
+}
+.special-dent{
+    width: 3.2rem;
+}
+.special-dent:hover{
+    transform: translateY(-1px);
+    transition: all .2s linear;
+    box-shadow: 0px 1px 10px rgb(214, 214, 214);
+    transition: all .3s linear;
+}
+.special-head{
+    font-size: 1.3rem;
+    color: #272C3D;
+    font-weight: 500;
+
+}
+.special-para{
+    font-size: 1rem;
+    color: #454568;
+    font-weight: 400;
+
+}
+
+
+
+/* footer part here */
+
+
+
+.footer{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #edf5fc ;
+    margin-top: 6rem;
+}
+.footer-part{
+    width: 100%;
+    
+    display: flex;
+    margin-top: 4rem;
+   
+}
+
+.footer-part-section1{
+  
+    width: 55%;
+    display: flex;
+    margin-left: 1rem;
+    
+    gap: 7vw;
+}
+.footer-part-section2{
+  
+    width: 45%;
+    
+    display: flex;
+   
+}
+.footer-part1{
+    width: 87%;
+   
+}
+.footer-part2{
+    width: 30%;
+}
+
+.footer-phone{
+    display: flex;
+}
+.footer-part3{
+  width: 50%;
+  margin-left: 6vw;
+}
+.footer-part4{
+   
+   margin-left: 1rem;
+    width: 50%;
+}
+
+.footer-para{
+    font-size: 1.08rem;
+    font-weight: 400;
+    color: #454568;
+    margin-top: 1rem;
+    line-height: 1.6rem;
+}
+.footer-phone{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #454568;
+    margin-top: 1.3rem;
+} 
+#footer-call{
+    font-size: 1.2rem;
+}
+#footer-call1{
+    font-size: 1rem;
+   
+}
+#footer-icon{
+    margin-left: 1rem;
+    gap: 1.5rem;
+    font-size: 1.4rem;
+} 
+
+.info{
+    font-size: 1.4rem;
+    color: #272C3D;
+    font-weight: 600;
+} 
+.connect{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.2rem;
+    color: #454568;
+}
+#connect1{
+    line-height: 1.6rem;
+}
+.footer-mail-section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+} 
+
+#footer-mail{
+    font-size: 1rem;
+    color: #454568;
+    margin-top: 1.2rem;
+    padding: 1rem 0rem;
+    border-radius: 30px;
+    border: none;
+    
+} 
+#footer-button{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: #6668BA;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}  
+
+   
+#footer-log{
+    
+    width: 13rem;
+}
+
+#footer-call:hover{
+    color: #6668BA;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+#footer-call1:hover{
+    color: #6668BA;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+#face1:hover{
+    color: #6668BA;
+    transition: all .3s linear;
+}
+#tele1:hover{
+    color: #6668BA;
+    transition: all .3s linear;
+}
+#insta1:hover{
+    color: #6668BA;
+    transition: all .3s linear;
+}
+#youtub1:hover{
+    color: #6668BA;
+    transition: all .3s linear;
+}
+#whats1:hover{
+    color: #6668BA;
+    transition: all .3s linear;
+}
+.connect:hover{
+    color: #6668BA;
+    transition: all .3s linear;
+}
+
+.red{
+    margin-top: 2rem;
+    width: 100%;
+   opacity: .3;
+   
+}
+
+
+.footer-last-part{
+    margin-top: 3rem;
+    color: #454568;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+
+
+
+
+/* location part here */
+
+.location{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+  
+    gap: rem;
+
+}
+.footer-location{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 1px solid;
+    margin-left: 1.6rem;
+    
+    width: 30.5%;
+    border-radius: 10px;
+}
+#footer-location1{
+    margin-right: 2.5rem;
+
+}
+.location1{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+#location-icon{
+    font-size: 1.7rem;
+    color: #6668ba;
+}
+.location-head{
+    color: #272C3D;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.location-para{
+    font-size: 1.08rem;
+    font-weight: 400;
+    color: #454568;
+    margin-left: 3.9rem;
+    margin-top: .6rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+/*  google map part here */
+
+
+.map{
+    width: 100%;
+    
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#maps{
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 1.6rem;
+    margin-right: 2.6rem;
+    border-radius: 10px;
+    
+}
+
+
+@media screen and (min-width:1275px) and (max-width:2000px) {
+    .header{
+        padding: 0px 1.6rem;
+        width: 101%;
+        
+
+    }
+   
+    .main-img{
+        width: 101%;
+    }
+   
+
+
+
+
+
+    /* overlap aprt here */
+
+    .dent-head{
+       bottom: 50%;
+    }
+
+
+  /* practice part here */
+
+
+  .practice{
+    width: 101%;
+    
+  }
+  .practice-para{
+    width: 100%;
+  }
+  .practice-season{
+   
+       width: 54%;
+       margin-right: 1rem;
+    }
+   
+
+    /* healthy part here */
+
+
+    .healthy{
+        width: 101%;
+       
+    }
+    .healthy-last{
+       
+        margin-right: 2rem;
+    }
+
+
+
+    /* health part here */
+
+    .health{
+        width: 101%;
+        
+       
+    }
+    .dental-service{
+        width: 101%;
+        
+    }
+    #health1{
+        margin-right: 1rem;
+        
+    }
+
+
+
+    /* surgeon part here */
+
+
+    .surgeon{
+        width: 101%;
+        
+        margin-right: 0;
+    }
+    .surgeon-info2{
+        
+        margin-right: 0rem;
+        width: 50%;
+    }
+    .monday{
+        width: 100px;
+    }
+
+
+
+
+    /* people part here */
+
+    .people{
+        width: 100%;
+        
+        margin-right: 0;
+    }
+
+    .people-card{
+        width: 101%;
+      
+        
+    }
+    .people-card2{
+        margin-right: 1rem;
+        width: 50%;
+    }
+    .people-card1{
+       
+        width: 50%;
+    }
+
+
+
+
+    /* advance part here */
+
+
+    .advance{
+        width: 101%;
+        
+    }
+    .result-img{
+        width: 101%;
+    }
+
+
+
+    /* expert part here */
+
+
+    .expert{
+        width: 101%;
+       
+    }
+    .expert-img{
+        width: 80%;
+        margin-left: 0vw;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0vw;
+    }
+
+
+
+    /* footer part here */
+
+
+    .footer{
+        width: 101%;
+       
+        margin-left: .2rem;
+    }
+    .footer-part4{
+        margin-right: .5rem;
+       
+    }
+
+
+    /* additional part here */
+
+    .additional{
+        width: 101%;
+        margin-left: rem;
+    }
+    #survice-banner{
+        width: 100%;
+    }
+
+
+
+
+    /* location part here */
+
+    .location{
+        width: 101%;
+       
+    }
+    .footer-location{
+        width: 33%;
+    }
+    #footer-location1{
+       margin-right: 1.6rem;
+    }
+
+
+
+
+
+
+    /* google map part here */
+
+
+    .map{
+        width: 101%;
+    }
+    #maps{
+        margin-right: 1.6rem;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width:1290px){
+    
+   
+
+    .main-img{
+        
+        width: 101%;
+    }
+    
+
+    /* additional part here */
+
+
+    .additional{
+        width: 101%;
+    }
+
+
+
+
+
+    /* practice part here */
+
+    .practice{
+       
+        width: 101%;
+    }
+
+
+
+
+    /* healthy part here */
+
+
+    .healthy{
+        width: 101%;
+       
+    }
+
+
+    .health{
+        
+        width: 101%;
+    }
+
+    .dental-service{
+       
+        margin-left: 0;
+        width: 101%;
+    }
+    #dental-service-teeth{
+        margin-left: 1rem;
+    }
+
+
+
+
+    .surgeon{
+        width: 101%;
+       
+        
+        
+    }
+   
+    .surgeon-info2{
+        margin-right: .8rem;
+    }
+
+
+
+    /* people part here */
+
+    .people{
+       
+        margin-left: 0;
+        width: 101%;
+    }
+   
+    .people-card2{
+        
+        width: 48.3%;
+    }
+
+    .people-card{
+        
+        margin-left: 0;
+        width: 101%;
+    }
+
+
+
+
+    /* advance part here */
+
+
+    .advance{
+      
+        margin-left: 0;
+        width: 101%;
+    }
+    #result-img{
+      margin-left: 0;
+        width: 100%;
+    }
+
+
+
+    /* expert part here */
+
+
+    .expert{
+        
+        margin-left: 0;
+        width: 101%;
+    }
+
+
+/* 
+    speciallist part here */
+
+
+    .specialist{
+       
+        margin-left: 0;
+        width: 101%;
+    }
+
+    .specialist1{
+       
+        margin-left: 0;
+        width: 101%;
+    }
+
+
+
+
+    /* footer part here */
+
+
+   .footer{
+    
+      margin-left: 0;
+      width: 101%;
+   }
+
+
+}
+
+
+@media (min-width:1270px) and (max-width:1272px)
+{
+    .header{
+        
+        width: 101%;
+    }
+    .call{
+        margin-right:3rem;
+    }
+
+    
+    .dent-head{
+   
+        position: relative;
+        bottom: 19rem;
+        color: white;
+           
+          
+    }
+  
+
+    
+
+  /* healthy part here */
+
+   .healthy{
+        width: 101%;
+    
+   }
+  
+   .healthy-last{
+    
+    margin-right: 2.8rem;
+   }
+
+
+
+
+   /* health part here */
+
+
+   .health{
+    width: 101%;
+   
+   }
+   .dental-service{
+      
+    width: 101%;
+}
+
+   #health1{
+      
+      margin-right: 1.6rem;
+     
+    }
+
+
+
+    /* surgeon part here */
+
+    .surgeon{
+       
+        width: 101%;
+    }
+    .monday{
+        width: 110px;
+        
+    }
+   
+    .surgeon-info2{
+       
+        margin-right: .8rem;
+    }
+
+
+
+
+
+    /* people part here */
+
+
+    .people{
+        width: 101%;
+        
+       
+    }
+    .people-card{
+        width: 101%;
+        
+        
+    }
+    .people-card1{
+        margin-left: 1.2rem;
+        width: 48%;
+     }
+    .people-card2{
+       
+       margin-right: 3rem;
+       width: 48%;
+    }
+
+
+
+    /* advance part here */
+
+
+    .advance{
+        width: 101%;
+       
+    }
+    #result-img{
+        width: 101%;
+       
+    }
+
+
+
+
+
+
+    /* expert part here */
+
+
+    .expert{
+        width: 101%;
+        
+    }
+    .expert-img{
+        width: 96%;
+       
+        margin-right: 1.8rem;
+    }
+
+
+
+
+    /* specialist part here */
+
+
+
+    .specialist{
+        width: 101%;
+       
+    }
+    .specialist1{
+        width: 100%;
+        
+      
+       
+    }
+
+
+
+
+
+    /* footer part here */
+
+    .footer{
+        width: 101%;
+       
+    }
+
+    .footer-part4{
+       
+        margin-right: 2.8rem;
+    }
+
+
+
+
+    /* location part here */
+
+
+    .location{
+        width: 101%;
+        
+    }
+    #footer-location1{
+        margin-right: 3.5rem;
+    }
+
+
+
+
+
+    /* google map part here */
+
+
+
+    .map{
+        width: 101%;
+       
+    }
+    #maps{
+        margin-right: 3.3rem;
+    }
+
+   
+  
+    
+}
+
+
+
+
+
+@media (min-width:1025px) and (max-width:1269px){
+    .header{
+       
+        width: 101%;
+    }
+    .call{
+        margin-right: 1.5rem;
+    }
+
+
+
+    /* overlap part here */
+    .dent-head{
+        bottom: 55%;
+    }
+
+
+
+    /* healthy part here */
+
+
+    .healthy{
+        width: 101%;
+        
+    }
+    .healthy-last{
+       
+        margin-right: 1.7rem;
+    }
+
+
+
+    /* health part here */
+    .health{
+        width: 101%;
+        
+    }
+    .dental-service{
+      
+        width: 101%;
+    }
+    #health1{
+        
+        margin-right: 1rem;
+    }
+
+
+
+    /* surgeon part here */
+
+    .surgeon{
+        width: 101%;
+       
+    }
+    .surgeon-info2{
+       
+        margin-right: 0;
+        width: 48%;
+    }
+    .monday{
+        width: 100px;
+    }
+
+
+
+
+
+    /* location part here */
+
+
+    .location{
+        width: 101%;
+      
+    }
+    .footer-location{
+        width: 33%;
+    }
+    #footer-location1{
+        margin-right: 1.6rem;
+    }
+
+
+    /* google map part here */
+
+
+    .map{
+        width: 101%;
+    }
+    #maps{
+        margin-right: 1.6rem;
+    }
+
+
+
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    .header{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .anchor{
+       
+        position: fixed;
+        top: 96px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        align-items: center;
+        left: -100%;
+        height: 45vh;
+        transition: all .3s ease;
+        gap: 1.2rem;
+    }
+    #home{
+        margin-top: 1rem;
+    }
+    #click:checked ~ .bar i:before{
+        content: "\2715";
+    }
+
+    #click:checked ~ .anchor{
+        left: 0;
+    }
+
+    
+    .call{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-right: 1.6rem;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #272C3D;
+       
+    }
+    .dent-image{
+   
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .main-img{
+       
+        position: relative;
+        height: 40vh;
+    }
+    #image-dent{
+        height: 100%;
+
+    }
+
+    .dent-head{
+   
+        position: relative;
+        bottom: 24rem;
+        color: white;
+       
+      
+    }
+
+    .dent-heading{
+       
+        position: relative;
+        left: 18vw;
+       font-size: 5vw;
+       width: 50%;
+    }
+    .dent-para{
+        width: 50%;
+       
+        position: relative;
+        left: 18vw;
+        bottom: 1.5rem;
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    
+
+    .practice-head{
+        width:345px;
+        font-size: 1.6rem;
+        
+        font-weight: 600;
+        color: #272C3D;
+       
+       
+    }
+    .practice-season{
+        position: relative;
+       
+        bottom: 1rem;
+    }
+    .practice-image{
+        width: 49vw;
+        height: 30vw;
+      
+    }
+    .practical-dent{
+        height: 100%;
+    }
+    .practice{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .practice-para{
+        position: relative;
+        top: 1.7rem;
+        width: 100%;
+        
+       
+        font-weight: 400;
+        line-height: 1.5rem;
+       
+        color: #454568;
+    }
+
+
+
+
+    /* health part here */
+    
+    .dental-service{
+        margin-top: 2rem;
+    }
+    #health1{
+        display: none;
+    }
+    .healthteeth1-head{
+        width: 100%;
+       
+       
+    }
+    .service-para{
+        width: 95%;
+        font-size: 1.2rem;
+        
+    }
+
+
+    /* surgeon part here */
+
+    .surgeon{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10rem;
+        
+    }
+    .surgeon-info{
+        width: 95%;
+        margin-right: 2rem;
+       
+    }
+    .surgeon-para{
+        width: 98%;
+    }
+    .surgeon-info2{
+        width: 95%;
+        
+        margin-left: .8rem;
+        
+       
+        
+    }
+    .surgeon-text{
+       display: flex;
+       flex-direction: column;
+      justify-content: center;
+    }
+    .surgeon-img{
+        display: flex;
+        gap: 6rem;
+        
+       
+    }
+    .surgeon-pic{
+        margin-left: 4rem;
+    }
+    .surgeon-info2-bottom{
+        margin-right: 20vw;
+    }
+    
+    .dot{
+        
+        width: 40%;
+        border: 1.5px dotted;
+    }
+    .surgeon-pic{
+        
+        width: auto;
+       
+    }
+
+
+
+
+    /* advance part here */
+
+    
+    #result-img{
+        margin-right: 0rem;
+    }
+    .advance-head{
+        margin-top: 4rem;
+    }
+
+
+
+
+   
+    /* specialist part here */
+
+    .specialist{
+        width: 97.5%;
+       
+    }
+    .specialist1{
+        width: 97.6%;
+       
+    }
+
+
+
+
+    /* footer part here */
+
+    .footer{
+        width: 100%;
+       
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+    .footer-para{
+        
+        width: 88%;
+    }
+
+    .footer-part{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-part-section1{
+        width: 100%;
+    }
+    .footer-part1{
+        width: 50%;
+    }
+    .footer-part2{
+        width: 50%;
+    }
+    .footer-part-section2{
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .footer-part3{
+        width: 50%;
+        margin-left: 0;
+    }
+    .footer-part4{
+        width: 50%;
+    }
+    #footer-mail{
+        width: 320px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:920px){
+
+    .header{
+        width: 101%;
+    }
+
+
+    .anchor{
+        height: 30%;
+    }
+
+    .main-img{
+        width: 101%;
+    }
+    .dent-head{
+        position: relative;
+        bottom: 48%;
+        color: white;
+    }
+    /* additional part here */
+
+
+    .additional{
+        width: 101%;
+    }
+
+
+
+    /* practice part here */
+
+    .practice{
+        
+        width: 101%;
+    }
+    .practice-image{
+        margin-left: 1.9rem;
+    }
+    
+
+  /* healthy part here */
+
+
+
+    .healthy{
+      
+        width: 101%;
+        display: flex;
+        align-items: center;
+       
+    }
+   
+    .healthy-para{
+        
+        margin-top: 1rem;
+        line-height: 1.7rem;
+       width: 97%;
+    }
+    .healthy-head{
+       
+        line-height: 2rem;
+        width: 97%;
+        font-size: 1.4rem;
+    }
+
+
+    /* health part here */
+
+
+
+    .health{
+      
+        width: 101%;
+    }
+
+    .dental-service{
+       
+        margin-left: 0;
+        width: 101%;
+    }
+    #dental-service-teeth{
+        margin-left: 1.5rem;
+    }
+
+    
+    /* surgeon part here */
+    .surgeon{
+        width: 101%;
+    }
+    .surgeon-info{
+        width: 94%;
+        margin-right: 0;
+        margin-left: .01rem;
+    }
+    .line-item{
+        width: 100%;
+    }
+   
+    .surgeon-info2{
+        width: 94%;
+        margin-right: 0;
+        margin-left: .01rem;
+    }
+    .surgeon-img{
+       gap: 3rem;
+       margin-left: 0;
+       
+    }
+    .surgeon-pic{
+     margin-left: 0;
+    }
+    .monday{
+       
+        width: 125px;
+    }
+
+
+   
+
+
+
+
+    /* people part here */
+
+    .people{
+       
+        margin-left: 0;
+        width: 101%;
+    }
+    .people-card{
+        
+        margin-left: 0;
+        width: 101%;
+    }
+   
+   
+    .people-card-para{
+        margin: 0;
+        margin-top: 1rem;
+        margin-inline: .6rem;
+    }
+    .people-card-img{
+        margin-left: .6rem;
+        margin-top: 1.3rem;
+    }
+
+
+
+    /* advance part here */
+
+
+   .advance{ 
+      
+      width: 101%;
+     
+    }
+   #result-img{
+       width: 100%;
+    }
+
+
+    /* expert part here */
+
+    .expert{
+       
+        margin-left: 0;
+        width: 101%;
+    }
+
+
+
+
+    /* specialist part here */
+
+    .specialist{
+        
+        margin-left: 0;
+        width: 101%;
+       
+    }
+    .specialist1{
+       
+        margin-left: 0;
+        width: 101%;
+        
+    }
+    .special-head{
+        font-size: 1.5rem;
+    }
+    .special-para{
+        margin-top: .7rem;
+    }
+
+
+
+
+    /* footer part here */
+
+
+    .footer{
+        
+        margin-left: 0;
+        width: 101%;
+       
+    }
+    .footer-part-section1{
+      
+        width: 96%;
+    }
+
+    .footer-part-section2{
+       
+        width: 96%;
+    }
+
+
+
+
+
+    /* location part here */
+
+
+
+    .location{
+        width: 101%;
+       
+    }
+    #footer-location1{
+        margin-right: 1.5rem;
+    }
+
+
+
+    /* google map  part here */
+
+
+    .map{
+        width: 101%;
+       
+    }
+    #maps{
+        width: 100%;
+        margin-right: 1.8rem;
+    }
+   
+}
+
+
+
+@media screen and (max-width:820px){
+
+   
+
+
+
+
+    .main-img{
+       
+        margin-left: rem;
+        position: relative;
+        height: 42vh;
+    }
+
+   
+
+}
+
+
+
+@media screen and (max-width:770px){
+   
+
+
+
+    .main-img{
+        
+        position: relative;
+        height: 50vh;
+    }
+
+   
+    .dent-heading{
+        width: 60%;
+        font-size: 6vw;
+    }
+    .dent-para{
+        font-size: 2vw;
+    }
+    #dent-learn{
+       
+        background-color: #6668BA;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 40px;
+        padding: .8rem 1rem;
+        font-size: 1.7vw;
+        font-weight: 600;
+        top: 2rem;
+        left: 18vw;
+        
+    }
+
+
+    /* practical part here */
+
+
+
+    
+     
+    .practice-head{
+        font-size: 1.5rem;
+        width: 325px;
+        
+    }
+    .practice-para{
+        font-size: 1.07rem;
+        line-height: 1.7rem;
+        width: 100%;
+    }
+    .practice-image{
+        width: 95%;
+       
+        height: auto;
+        
+       position: relative;
+       right: .3rem;
+      
+        
+    }
+    
+    .practical-dent{
+        height: 100%;
+        width: 100%;
+    }
+    .practice-season{
+       
+        width: 95%;
+       
+       
+    }
+    .tick{
+        line-height: 1.8rem;
+    }
+
+
+
+
+  
+
+   
+
+
+
+    /* health part here */
+
+    .health{
+        margin-top: 3rem;
+    }
+
+
+
+    .health-teeth1{
+        display: flex;
+        
+        
+       
+    }
+    .healthteeth1-head{
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+    .health-teeth{
+        gap: 5rem;
+    }
+    .health-head{
+        font-size: 1.7rem;
+    }
+    .health-para{
+        font-size: 1rem;
+    }
+
+    .service-para{
+        font-size: 1rem;
+        
+    }
+
+
+    
+
+    /* advance part here */
+
+    .advance{
+        margin-top: 4rem;
+    }
+    .advance-head{
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+    }
+    .advane-para{
+        font-size: .9rem;
+        font-weight: 300;
+    }
+    #result-img{
+        margin-top: 1.5rem;
+    }
+
+
+
+
+
+    /* expert part here */
+
+    .expert{
+        margin-top: 4rem;
+    }
+    .expert-head{
+        font-size: 1.8rem;
+    }
+    .expert-para{
+        font-size: 1rem;
+    }
+
+    
+    
+  
+
+}
+
+
+
+
+
+
+@media screen and (max-width:550px){
+
+
+    .practice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 0;
+        
+    } 
+
+
+    .practice{
+        position: relative;
+        top: 0;
+        margin-top: 3rem;
+    }
+    .main-img{
+       
+        position: relative;
+        height: 50vh;
+    }
+
+    .dent-head{
+   
+        position: relative;
+        bottom: 15rem;
+        color: white;
+        
+      
+    }
+    .dent-heading{
+       
+        position: relative;
+        left: 18vw;
+       font-size: 6vw;
+       width: 60%;
+    }
+    #dent-learn{
+       
+        background-color: #6668BA;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 40px;
+        padding: .6rem 1rem;
+        font-size: 1.9vw;
+        font-weight: 700;
+        top: 2rem;
+        left: 18vw;
+        
+    }
+
+
+
+
+    /* healthy part hear */
+
+
+    .healthy{
+      
+        position: relative;
+       
+        margin-top: 4rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #EDF5FC;
+        
+    }
+
+
+
+
+
+
+    .healthy-first{
+        width: 100%;
+        margin-left: .1rem;
+       
+    }
+    .healthy-head{
+       
+        width: 270px;
+      
+       
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #272C3D;
+        position: relative;
+        left: .5rem;
+        bottom: 1.5rem;
+    }
+    .healthy-para{
+        color: #454568;
+        position: relative;
+        left: .5rem;
+        width: 98%;
+        line-height: 1.6rem;
+    }
+    #healthy-button{
+        padding: .8rem 1rem;
+        font-weight: 500;
+        
+    }
+    .healthy-middle{
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        width: 100vw;
+       height: 60vw;
+     
+    }
+    #healthy-img{
+        
+        width: 70vw;
+        height: 100%;
+    }
+    .healthy-last{
+        margin-top: 0;
+        width: 100%;
+        margin-left: .5rem;
+        position: relative;
+        bottom: 3rem;
+        margin-bottom: 0;
+        
+    }
+    .healthy-div2{
+        position: relative;
+        bottom: .7rem;
+    }
+    .healthy-div3{
+        position: relative;
+        bottom: .7rem;
+    }
+
+
+
+    /* health-part here */
+
+    .health{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .health-teeth1{
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .health-para{
+        width: 93%;
+        text-align: center;
+       
+    }
+    .healthteeth1-head{
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .service-para{
+        text-align: center;
+    }
+
+    #health2{
+        display: none;
+    }
+    .health-teeth{
+        gap: 1rem;
+    }
+
+
+
+
+
+    /* surgeon part here */
+
+
+    .surgeon-img{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .surgeon{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .surgeon-info2-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+      
+    }
+    .surgeon-info{
+        width: 98%;
+        margin-left: 2rem;
+    }
+    .surgeon-info2{
+        width: 99%;
+        margin-left: 1.2rem;
+        margin-right: 0;
+    }
+    .working{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .working-para{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+
+
+
+    /* people .people-card part here */
+
+    .people-card2{
+        display: none;
+    }
+    .people-card1{
+        width: 100%;
+       
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
+    
+    .people-card{
+        width: 98%;
+       
+        gap: 0;
+        margin-left: .8rem;
+        margin-right: 0;
+    }
+   
+
+
+
+
+
+   
+
+
+    /* specialist part here */
+
+    .specialist , .specialist1{
+        margin-left: .8rem;
+    }
+    .specialist-head{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .specialist1{
+        display: flex;
+        
+    }
+    .special-teeth{
+        width: 100%;
+       
+    }
+
+
+
+
+    /* footer parrt here */
+
+    .footer-part{
+        margin-top: 3rem;
+    }
+
+
+    .footer-para{
+        width: 96%;
+    }
+
+    .footer-part-section1 ,.footer-part-section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-part1{
+        width: 100%;
+    }
+    .footer-part2{
+        width: 100%;
+    }
+    .footer-part3{
+        width: 100%;
+    }
+    .footer-part4{
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer-mail-section{
+        display: flex;
+        display: block;
+        width: 96%;
+        
+        
+    }
+   
+    
+    #footer-mail{
+        width: 360px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:450px){
+
+    /* header part here */
+    .anchor{
+       
+        width: 35vw;
+        height: 38%;
+       
+    }
+
+
+    .header{
+        width: 106%;
+       padding: 0px 1.2rem;
+    }
+
+    #teeth{
+        margin-left: 0rem;
+    }
+    .main-img{
+       width: 106%;
+       margin-left: rem;
+      
+        position: relative;
+        height: 40vh;
+    }
+    .dent-head{
+        position: relative;
+        bottom: 35%;
+        color: white;
+       
+      
+    }
+    .dent-heading{
+       
+        position: relative;
+        left: 15vw;
+       font-size: 7.3vw;
+       width: 70%;
+    }
+    .dent-para{
+        position: relative;
+        bottom: 1.5rem;
+        font-size: 3vw;
+        font-weight: 500;
+        left: 15vw;
+    }
+    
+    #dent-learn{
+       
+        background-color: #6668BA;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 40px;
+        padding: .3rem .7rem;
+        font-size: 2.5vw;
+        font-weight: 700;
+        top: 1.5rem;
+        left: 15vw;
+        
+    }
+
+
+    /* additional part here */
+
+
+
+    .additional{
+        width: 106%;
+    }
+    .add{
+        margin-top: 20%;
+    }
+
+    /* practice image part here */
+
+
+
+    .practice{
+        margin-top: 10rem;
+        width: 106%;
+        
+    }
+    
+    .practice-image{
+       
+        width: 92%;
+        position: relative;
+        right: 0rem;
+        margin-left: .01rem;
+       
+    }
+
+    .practice-season{
+        width: 92%;
+        
+        margin-left: 1.8rem;
+    }
+
+
+
+    /* healthy part here */
+
+
+    .healthy-first{
+        
+        width: 97%;
+    }
+    .healthy-para{
+      
+        width: 97%;
+    }
+    .healthy-middle{
+       
+       width: 97%;
+      
+    }
+    .healthy-last{
+       
+        width: 97%;
+    }
+
+    .healthy{
+        
+        width: 106%; 
+        
+    } 
+
+
+
+
+    /* health part here */
+
+    .health{
+       
+        width: 106%;
+    }
+    .dental-service{
+        
+        width: 106%;
+        margin-left: 0;
+       
+    }
+    
+    #dental-service-teeth{
+        margin-left: 0rem;
+    }
+
+
+
+
+    /* surgeon part here */
+
+
+    .surgeon{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        width: 106%;
+       
+        justify-content: center;
+        align-items: center;
+      
+       
+    }
+    .surgeon-info{
+       
+        width: 95%;
+        margin-left: 0rem;
+        
+       
+    }
+    .surgeon-text{
+        
+       margin-left: .5rem;
+    }
+    .surgeon-bottom{
+       
+        margin-left: .5rem;
+        
+    }
+    
+    .line-item{
+        width: 98%;
+    }
+    
+   
+   .surgeon-info2{
+       
+       margin-left: 0rem;
+       margin-right: 0rem;
+       position: relative;
+       left: rem;
+       width: 95%;
+       justify-content: center;
+       align-items: center;
+   }
+   .surgeon-info2-bottom{
+       margin-left: 4.5rem;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+    
+    }
+    .monday{
+        width: auto;
+        margin-bottom: 1rem;
+    }
+    .dot{
+        width:70%;
+        margin-bottom: 1rem;
+    }
+    
+
+    #sur1{
+        margin-top: 1.5rem;
+        
+    }
+
+    #surgeon-monday{
+       
+        margin-top: 1.5rem;
+      
+    }
+    
+
+
+
+
+
+   /* people part here */
+    .people{
+        width: 106%;
+        
+        margin-left: 0;
+    }
+
+    .people-card{
+        
+        margin-left: 0;
+        width: 106%;
+    }
+    .people-card1{
+        width: 92%;
+        margin-left: 1rem;
+       
+    }
+    .people-card-para{
+        margin: 0;
+        margin-top: .8rem;
+        margin-inline: .6rem;
+    }
+    .people-card-img{
+       
+        margin-top: 1.5rem;
+        margin-left: .6rem;
+    }
+
+
+
+
+    /* advance part here */
+
+    .advance{
+       
+        margin-left: 0;
+        width: 106%;
+    }
+    #result-img{
+       
+       
+       width: 100%;
+    }
+
+
+
+
+
+    /* expert part here */
+
+
+    .expert{
+      
+        margin-left: 0;
+        width: 106%;
+    }
+
+
+    
+
+    /* specialist part here */
+   
+
+    .specialist{
+       
+        margin-top: 3rem;
+        margin-left: 0rem;
+        width: 106%;
+      
+    }
+    .specialist1{
+       
+        margin-left: 0;
+        width: 106%;
+    }
+   
+
+
+    /* footer part here */
+
+
+
+    .footer{
+       
+        margin-left: 0;
+        width: 106%;
+    }
+
+    #connect1{
+        width: 96%;
+        margin-left: 0;
+        
+    }
+    .footer-mail-section{
+      
+        margin-left: 0;
+    }
+   .footer-part-section1{
+       margin-left: 1rem;
+      
+       width: 95%;
+   }
+
+   .footer-part-section2{
+       margin-left: 1rem;
+        width: 95%;
+       
+        
+    }
+
+    .footer-part4{
+        margin-top: 1.5rem;
+    }
+
+
+
+
+
+    /* location part here */
+
+    .location{
+       
+        width: 106%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .footer-location{
+        width: 90%;
+        margin-left: 0;
+    }
+    #footer-location2{
+        margin-top: 2rem;
+    }
+    #footer-location1{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+
+    /* google maps part here */
+
+    .map{
+        margin-top: 1rem;
+        width: 106%;
+       
+    }
+    #maps{
+       
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
+   
+}
+
+
+
+
+
+
+@media screen and (max-width:376px) {
+
+
+   .anchor{
+    height: 40%;
+   }
+
+
+    .main-img{
+       
+        position: relative;
+        height: 43vh;
+    }
+   
+    .dent-heading{
+       
+        position: relative;
+        left: 15vw;
+       font-size: 7.3vw;
+       width: 70%;
+    }
+    .dent-para{
+        position: relative;
+        bottom: 1.5rem;
+        font-size: 3vw;
+        font-weight: 500;
+        left: 15vw;
+    }
+    #dent-learn{
+       
+        background-color: #6668BA;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 40px;
+        padding: .3rem .7rem;
+        font-size: 2.5vw;
+        font-weight: 700;
+        top: 1.5rem;
+        left: 15vw;
+        
+    }
+
+
+    /* practice image part here */
+
+
+    .practice-image{
+        width: 92%;
+        position: relative;
+        right: .02rem;
+        
+    }
+
+    
+
+   
+
+
+    .practice-season{
+        width: 92%;
+        
+    }
+
+
+
+
+   
+
+
+
+    /* surgeon part here */
+    
+   
+
+
+    
+    #sur1{
+        margin-top: 1.5rem;
+        
+    }
+
+    #surgeon-monday{
+        margin-top: 1.5rem;
+    }
+   
+
+
+
+   
+
+
+
+    
+
+
+
+    /* footer part here */
+
+
+   
+    #footer-mail{
+       width: 90vw;
+    }
+
+
+   
+
+
+
+}
+
+@media screen and (max-width:345px) {
+
+
+    .anchor{
+       height: 57%;
+    }
+
+    .main-img{
+       
+        position: relative;
+        height: 36vh;
+    }
+    .dent-head{
+       
+        position: relative;
+        bottom: 2rem;
+        color: white;
+       
+      
+    }
+    .dent-heading{
+        margin-top: .5rem;
+        line-height: 1.3rem;
+    }
+    .dent-para{
+       position: relative;
+       top: 0rem;
+    }
+    #dent-learn{
+        position: relative;
+        top: 0;
+        margin-top: 1rem;
+    }
+
+
+    /* practical-dentpart here */
+
+    
+    
+    .practice-head{
+        font-size: 1.3rem;
+        width: 95vw;
+        
+    }
+
+
+
+
+   
+
+   
+   
+
+
+    /* people card here */
+
+
+
+    .people-card-img{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .maureen-head{
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+    }
+   
+
+
+
+
+
+    /* .expert part here */
+
+    #team1{
+        width: 97vw;
+    }
+
+
+
+
+
+
+
+
+   
+
+    /* footer part here */
+
+    #footer-mail{
+        width: 90vw;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:287px) {
+    .header{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+    }
+    #teeth{
+        height:30vh;
+        width: 70vw;
+        margin-left: 1.6rem;
+    }
+
+
+   
+
+
+
+    #dent-learn{
+        top: .5rem;
+    }
+
+
+    /* healthy part here */
+
+
+    .healthy-head{
+        width: 100vw;
+    }
+    
+
+
+
+
+
+}
